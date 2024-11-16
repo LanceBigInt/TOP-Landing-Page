@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 60px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-logo {
+    font-family: "Roboto";
+    font-weight: 30px;
+    color: #f9faf8;
+    font-size: 24px;
+    padding-left: 28px;
+    
+}
+
+.top-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:19px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-header-links {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.below-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.random-information {
+    text-align: center;
+}
+
+.content-div{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap:wrap;
+}
+
+.footer{
+    font-family: "Roboto";
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.person {
+    padding-right: 15px;
+    text-align: end;
+    text-wrap: wrap;
+}
+
+.quote {
+    text-align: left;
+    padding: 15px;
+    text-wrap: wrap;
+}
+
+.pic{
+    padding: 25px;
+    width: 100px;
+}
+
+.title {
+    padding: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.call-to-action-box {
+    display: flex;
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    border-radius: 10px;
+}
+
+.right-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+
+}
+
+.right-text {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.right {
+    text-align: center;
+    position: relative;
+}
+
+
+.left {
+    align-content: center;
+    padding-right: 40px;
+    margin: 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 60px;
+    background-color: #e5e7eb;
+
+}
+.inner-test {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.left-call-to-action-box {
+
+    align-content: left;
+    
+}
+
+.inner-left-text {
+    padding-bottom: 10px ;
+}
+
+button {
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+
+.below-header-button {
+    background-color: #3882f6 ;
+    color: white;
+    border: 0;
+}
+
+.button-call-to-action {
+    background-color: #3882f6;
+    color: white;
+    border: 2;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.below-header-title-text {
+    font-family: "Roboto";
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.below-header-smaller-text {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    font-family: "Roboto";
+    color: #f9faf8;
+    text-decoration: none;
+
+}
+
+.link-3 {
+    padding-right: 50px;
+}
+
+.title {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.person {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.quote {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+h3 {
+    font-family: "Roboto";
+    color: #f9faf8;
+    margin-bottom: 2;
+
+}
+
+.under-call {
+    font-family: "Roboto";
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.pic {
+    border: #3882f6;
+    background-color:gray;
+    border-radius: 20px;
+    border-style: solid;
+    width: 150px  ;
+    margin-bottom: 10px;
+}
